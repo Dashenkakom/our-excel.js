@@ -1,0 +1,31 @@
+{
+  "name": "our-excel",
+  "version": "1.0.0",
+  "description": "Pure Java Script Excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashenkakom/our-excel.js.git"
+  },
+  "keywords": [
+    "js",
+    "java",
+    "script",
+    "excel"
+  ],
+  "author": "lemeshko darya <dashenka_kom@inbox.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dashenkakom/our-excel.js/issues"
+  },
+  "homepage": "https://github.com/Dashenkakom/our-excel.js#readme",
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
