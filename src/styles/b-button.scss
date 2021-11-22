@@ -1,0 +1,59 @@
+@import "variables";
+@import "mixins";
+
+.b-button {
+    &_position {        
+        &_header {
+            height: 48px;
+            width: 48px;
+            border-radius: 4px;           
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        &_toolbar {
+            height: 40px;
+            width: 40px;    
+            border: 2px solid black;    
+            border-radius: 4px;        
+            margin-right: 10px;       
+            background-size:contain;
+            background-repeat: no-repeat; 
+            
+            &:hover {  
+                border-color: rgb(79, 19, 190); 
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);       
+            }
+        }
+    }
+   
+    &_type {
+        &_exit {
+            background-image: url('../images/exit.jpg');        
+        }
+        &_delete {
+            background-image: url('../images/delete.png'); 
+            margin-right: 15px;                      
+        }
+        &_left-align {
+            background-image: url('../images/left-align.png');            
+        }        
+        &_center-align {
+            background-image: url('../images/center-align.png');
+        }        
+        &_right-align {
+            background-image: url('../images/right-align.png');
+        }        
+        &_bold {
+            background-image: url('../images/bold.png');
+        }        
+        &_italic {
+            background-image: url('../images/italic.png');
+        }       
+        &_cross-out {
+            background-image: url('../images/cross-out.png');
+        }        
+        &_emphasize {
+            background-image: url('../images/emphasize.png');
+        }        
+    }
+ }

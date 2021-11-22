@@ -1,6 +1,30 @@
 @import "variables";
 @import "mixins";
 
-.excel__header {
+.header {
+        display: flex;       
+        justify-content: space-between;
+        padding: 25px, 25px, 25px, 5px;
 
+    &__wrapper {
+        display: flex;        
+    }     
+    
+    &__logo {
+        width: 36px;
+        height: 48px;
+        margin-right: 10px;
+        background-image: url('../images/logo.jpg');
+        background-size:contain;
+        background-repeat: no-repeat;        
+    }
+    &__table-name {
+        height: 36px;
+        border: 0;
+        padding: 2px 7px;
+        font-size: 18px;
+        line-height: 22px;              
+    }
 }
+
+
