@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixins";
+
+.excel {
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+    &__title {
+        width: 100px;
+        height: 30px;
+        border: 1px solid gray;
+
+        &_type_decore {
+            width: 20px;
+        }
+    }
+    &__data {        
+        height: 30px;
+        border: 1px solid gray;
+        padding: 5px;        
+    }
+    &__row-number {      
+        height: 30px;
+        text-align: center;
+        border: 1px solid gray;
+    }
+
+}

@@ -3,11 +3,11 @@
 
 .header {
         display: flex;       
-        justify-content: space-between;
-        padding: 25px, 25px, 25px, 5px;
+        justify-content: space-between;        
+        padding: 25px 25px 15px 5px;        
 
     &__wrapper {
-        display: flex;        
+        display: flex;             
     }     
     
     &__logo {
@@ -18,13 +18,7 @@
         background-size:contain;
         background-repeat: no-repeat;        
     }
-    &__table-name {
-        height: 36px;
-        border: 0;
-        padding: 2px 7px;
-        font-size: 18px;
-        line-height: 22px;              
-    }
+    
 }
 
 

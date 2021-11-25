@@ -3,9 +3,10 @@
 
 @import "header";
 @import "toolbar";
-@import "formula";
-@import "table";
+@import "formule";
+@import "excel";
 @import "b-button";
+@import "b-input";
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .excel {
