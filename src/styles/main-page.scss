@@ -1,0 +1,35 @@
+.main-page {
+    margin: 0 auto;
+    width: 996px;
+    
+    &__header {
+        padding: 10px 0;        
+    }
+    &__header-title {
+        font-size: 36px;
+        text-align: center;
+    }
+    &__table-new {
+        padding: 25px;
+        background-color: #f9e8d4;
+    }
+    &__table-new-button {
+        font-size: 25px;
+        background-color: #fdfcf8;
+        padding: 10px 20px;
+    }
+    &__table-list {
+        padding: 25px 15px;
+        font-size: 18px;
+    }
+    &__table-list-title {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    &__table {
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+    }       
+}
