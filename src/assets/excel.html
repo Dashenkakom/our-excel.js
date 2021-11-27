@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="header">
+            <div class="header__wrapper">
+                <div class="header__logo"></div> 
+                <input class="b-input" placeholder="Новая таблица">
+            </div>
+           <div class="header__wrapper">
+                <div class="b-button b-button_position_header b-button_type_delete"></div>
+                <div class="b-button b-button_position_header b-button_type_exit"></div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="b-button b-button_position_toolbar b-button_type_left-align"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_center-align"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_right-align"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_bold"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_italic"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_cross-out"></div>
+            <div class="b-button b-button_position_toolbar b-button_type_emphasize"></div>
+        </div>
+        <div class="formule">
+            <span class="formule__icon">&fnof;x</span>
+            <input class="b-input b-input_formule">            
+        </div>
+        <table class="excel">
+            <tr class="excel__titles">
+                <th class="excel__title excel__title_type_decore"></th> 
+                <th class="excel__title">A</th>  
+                <th class="excel__title">B</th>  
+                <th class="excel__title">C</th>                    
+            </tr>
+            <tr class="excel__data-container">
+                <td class="excel__row-number">1</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+            </tr>
+            <tr class="excel__data-container">
+                <td class="excel__row-number">2</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+            </tr>
+            <tr class="excel__data-container">
+                <td class="excel__row-number">3</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+                <td class="excel__data">data</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
